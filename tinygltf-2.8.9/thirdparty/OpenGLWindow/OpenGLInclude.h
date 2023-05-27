@@ -32,7 +32,7 @@ subject to the following restrictions:
 #else
 
 #ifdef GLEW_STATIC
-#include "GL/glew.h"
+#include "CustomGL/glew.h"
 #else
 #include <GL/glew.h>
 #endif //GLEW_STATIC
