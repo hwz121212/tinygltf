@@ -1167,7 +1167,7 @@ struct Light {
 
 class Model {
  public:
-  Model() = default;
+	 Model() { defaultScene = 0; };
   DEFAULT_METHODS(Model)
 
   bool operator==(const Model &) const;
@@ -1187,7 +1187,7 @@ class Model {
   std::vector<Scene> scenes;
   std::vector<Light> lights;
 
-  int defaultScene = -1;
+  int defaultScene;
   std::vector<std::string> extensionsUsed;
   std::vector<std::string> extensionsRequired;
 
