@@ -1,6 +1,6 @@
 {
   "commented_out_obj_filename": "cornellbox_suzanne.obj",
-  "gltf_filename": "../../models/Cube/Cube.gltf",
+  "gltf_filename": "Cube/Cube.gltf",
   "scene_scale": 1.0,
   "width": 512,
   "height": 512,
