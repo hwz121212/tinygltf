@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "saver", "demo\saver\saver.v
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glview", "demo\glview\glview.vcxproj", "{2B15FC01-91B9-42E5-BE49-FFB177DA688C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gltfutil", "demo\gltfutil\gltfutil.vcxproj", "{7BC9B197-3221-4EA0-A76F-E1509F6A00F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -77,6 +79,10 @@ Global
 		{2B15FC01-91B9-42E5-BE49-FFB177DA688C}.Debug|x64.Build.0 = Debug|x64
 		{2B15FC01-91B9-42E5-BE49-FFB177DA688C}.Release|x64.ActiveCfg = Release|x64
 		{2B15FC01-91B9-42E5-BE49-FFB177DA688C}.Release|x64.Build.0 = Release|x64
+		{7BC9B197-3221-4EA0-A76F-E1509F6A00F8}.Debug|x64.ActiveCfg = Debug|x64
+		{7BC9B197-3221-4EA0-A76F-E1509F6A00F8}.Debug|x64.Build.0 = Debug|x64
+		{7BC9B197-3221-4EA0-A76F-E1509F6A00F8}.Release|x64.ActiveCfg = Release|x64
+		{7BC9B197-3221-4EA0-A76F-E1509F6A00F8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{12056F94-6EFA-38A7-82CD-5B4D0A7A26C7} = {9F285E11-8863-4F37-A78D-9DCA0277756A}
 		{9C3426DE-4365-4A35-B062-C7B3F1073C31} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
 		{2B15FC01-91B9-42E5-BE49-FFB177DA688C} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
+		{7BC9B197-3221-4EA0-A76F-E1509F6A00F8} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
