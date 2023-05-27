@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{10EFE0B3-E62C-4767-8282-43E6BEC7EC32}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loader_example", "demo\loader_example\loader_example.vcxproj", "{C75E6FF7-6711-3666-82CA-3CC067B79708}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51A05965-5357-391F-BF7D-356F2375E194} = {51A05965-5357-391F-BF7D-356F2375E194}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtinygltf", "thirdparty\tinygltf-2.8.9\libtinygltf.vcxproj", "{51A05965-5357-391F-BF7D-356F2375E194}"
 EndProject
