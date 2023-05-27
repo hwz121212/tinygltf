@@ -342,7 +342,7 @@ static void error_callback(int error, const char *description) {
 }
 
 int main(int argc, char **argv) {
-  std::string filename = "../../../models/Cube/Cube.gltf";
+  std::string filename = "triangle.gltf";
 
   if (argc > 1) {
     filename = argv[1];
