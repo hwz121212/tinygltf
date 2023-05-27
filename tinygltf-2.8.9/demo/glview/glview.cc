@@ -982,8 +982,8 @@ int main(int argc, char **argv) {
 
 #ifdef _WIN32
 #ifdef _DEBUG
-  const char *shader_frag_filename = "../shader.frag";
-  const char *shader_vert_filename = "../shader.vert";
+  const char *shader_frag_filename = "shader.frag";
+  const char *shader_vert_filename = "shader.vert";
 #endif
 #else
   const char *shader_frag_filename = "shader.frag";
