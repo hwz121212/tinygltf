@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{574C76F3-21C6-3393-93E3-3C3D3AC17598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{934c8793-4c5c-47e9-82a9-a19bc33347c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dxview.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Viewer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="res\gray.hlsl">
+      <Filter>res</Filter>
+    </FxCompile>
+    <FxCompile Include="res\lighting.hlsl">
+      <Filter>res</Filter>
+    </FxCompile>
+    <FxCompile Include="res\primitive.hlsl">
+      <Filter>res</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
