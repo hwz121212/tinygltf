@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{574C76F3-21C6-3393-93E3-3C3D3AC17598}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gltf-loader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nanort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nanosg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj-loader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render-config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trackball.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picojson.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gltf-loader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nanort.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj-loader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="render-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stbi-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trackball.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.json">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
