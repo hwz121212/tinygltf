@@ -1,4 +1,4 @@
-¹ÙÍø£º
+Header only C++11 tiny glTF 2.0 library
 
-1. tinygltf-2.8.9.zip ÊÇ´Ó https://github.com/syoyo/tinygltf/releases ÏÂÔØ¶øÀ´µÄ¡£ÏÂÔØÊ±¼ä¡¾±±¾©Ê±¼ä2023-05-27¡¿
-2. tinygltf-2.8.9 Ä¿Â¼ÏÂµÄ´úÂëÊÇÓÉ tinygltf-2.8.9.zip ÖØ¹¹¶øÀ´µÄ£¬ÖØ¹¹Ê±¼ä¡¾±±¾©Ê±¼ä2023-05-27¡¿
+1. tinygltf-2.8.9.zip æ˜¯ä» https://github.com/syoyo/tinygltf/releases ä¸‹è½½è€Œæ¥çš„ã€‚ä¸‹è½½æ—¶é—´ã€åŒ—äº¬æ—¶é—´2023-05-27ã€‘
+2. tinygltf-2.8.9 ç›®å½•ä¸‹çš„ä»£ç æ˜¯ç”± tinygltf-2.8.9.zip é‡æ„è€Œæ¥çš„ï¼Œé‡æ„æ—¶é—´ã€åŒ—äº¬æ—¶é—´2023-05-27ã€‘
