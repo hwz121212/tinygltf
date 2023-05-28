@@ -44,7 +44,7 @@ TEST_CASE("datauri-in-glb", "[issue-79]") {
   std::string err;
   std::string warn;
 
-  bool ret = ctx.LoadBinaryFromFile(&model, &err, &warn, "../models/box01.glb");
+  bool ret = ctx.LoadBinaryFromFile(&model, &err, &warn, "models/box01.glb");
   if (!err.empty()) {
     std::cerr << err << std::endl;
   }
@@ -59,7 +59,7 @@ TEST_CASE("extension-with-empty-object", "[issue-97]") {
   std::string err;
   std::string warn;
 
-  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "../models/Extensions-issue97/test.gltf");
+  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "models/Extensions-issue97/test.gltf");
   if (!err.empty()) {
     std::cerr << err << std::endl;
   }
@@ -103,7 +103,7 @@ TEST_CASE("extension-overwrite", "[issue-261]") {
   std::string err;
   std::string warn;
 
-  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "../models/Extensions-overwrite-issue261/issue-261.gltf");
+  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "models/Extensions-overwrite-issue261/issue-261.gltf");
   if (!err.empty()) {
     std::cerr << err << std::endl;
   }
@@ -158,7 +158,7 @@ TEST_CASE("invalid-primitive-indices", "[bounds-checking]") {
   // Loading is expected to fail, but not crash.
   bool ret = ctx.LoadASCIIFromFile(
       &model, &err, &warn,
-      "../models/BoundsChecking/invalid-primitive-indices.gltf");
+      "models/BoundsChecking/invalid-primitive-indices.gltf");
   REQUIRE_THAT(err,
                Catch::Contains("primitive indices accessor out of bounds"));
   REQUIRE_FALSE(ret);
@@ -173,7 +173,7 @@ TEST_CASE("invalid-buffer-view-index", "[bounds-checking]") {
   // Loading is expected to fail, but not crash.
   bool ret = ctx.LoadASCIIFromFile(
       &model, &err, &warn,
-      "../models/BoundsChecking/invalid-buffer-view-index.gltf");
+      "models/BoundsChecking/invalid-buffer-view-index.gltf");
   REQUIRE_THAT(err, Catch::Contains("accessor[0] invalid bufferView"));
   REQUIRE_FALSE(ret);
 }
@@ -187,7 +187,7 @@ TEST_CASE("invalid-buffer-index", "[bounds-checking]") {
   // Loading is expected to fail, but not crash.
   bool ret = ctx.LoadASCIIFromFile(
       &model, &err, &warn,
-      "../models/BoundsChecking/invalid-buffer-index.gltf");
+      "models/BoundsChecking/invalid-buffer-index.gltf");
   REQUIRE_THAT(
       err, Catch::Contains("image[0] buffer \"1\" not found in the scene."));
   REQUIRE_FALSE(ret);
@@ -222,7 +222,7 @@ TEST_CASE("integer-out-of-bounds", "[bounds-checking]") {
   // Loading is expected to fail, but not crash.
   bool ret = ctx.LoadASCIIFromFile(
       &model, &err, &warn,
-      "../models/BoundsChecking/integer-out-of-bounds.gltf");
+      "models/BoundsChecking/integer-out-of-bounds.gltf");
   REQUIRE_THAT(err, Catch::Contains("not a positive integer"));
   REQUIRE_FALSE(ret);
 }
@@ -363,7 +363,7 @@ TEST_CASE("pbr-khr-texture-transform", "[material]") {
   // Loading is expected to fail, but not crash.
   bool ret = ctx.LoadASCIIFromFile(
       &model, &err, &warn,
-      "../models/Cube-texture-ext/Cube-textransform.gltf");
+      "models/Cube-texture-ext/Cube-textransform.gltf");
   REQUIRE(ret == true);
 
   REQUIRE(model.materials.size() == 2);
@@ -401,7 +401,7 @@ TEST_CASE("image-uri-spaces", "[issue-236]") {
     tinygltf::Model model;
     bool ret = ctx.LoadASCIIFromFile(
         &model, &err, &warn,
-        "../models/CubeImageUriSpaces/CubeImageUriSpaces.gltf");
+        "models/CubeImageUriSpaces/CubeImageUriSpaces.gltf");
     if (!warn.empty()) {
       std::cerr << warn << std::endl;
     }
@@ -421,7 +421,7 @@ TEST_CASE("image-uri-spaces", "[issue-236]") {
   tinygltf::Model model;
   bool ret = ctx.LoadASCIIFromFile(
       &model, &err, &warn,
-      "../models/CubeImageUriSpaces/CubeImageUriMultipleSpaces.gltf");
+      "models/CubeImageUriSpaces/CubeImageUriMultipleSpaces.gltf");
   if (!warn.empty()) {
     std::cerr << warn << std::endl;
   }
@@ -522,7 +522,7 @@ TEST_CASE("empty-skeleton-id", "[issue-321]") {
   std::string err;
   std::string warn;
 
-  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "../models/regression/unassigned-skeleton.gltf");
+  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "models/regression/unassigned-skeleton.gltf");
   if (!err.empty()) {
     std::cerr << err << std::endl;
   }
@@ -731,7 +731,7 @@ TEST_CASE("filesize-check", "[issue-416]") {
 
   ctx.SetMaxExternalFileSize(10); // 10 bytes. will fail to load texture image.
 
-  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "../models/Cube/Cube.gltf");
+  bool ret = ctx.LoadASCIIFromFile(&model, &err, &warn, "models/Cube/Cube.gltf");
   if (!err.empty()) {
     std::cerr << err << std::endl;
   }
