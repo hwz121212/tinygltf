@@ -905,14 +905,7 @@ int main(int argc, char **argv) {
   std::string err;
   std::string warn;
 
-#ifdef _WIN32
-#ifdef _DEBUG
-  std::string input_filename(argv[1] ? argv[1]
-                                     : "../../../models/Cube/Cube.gltf");
-#endif
-#else
-  std::string input_filename(argv[1] ? argv[1] : "../../models/Cube/Cube.gltf");
-#endif
+  std::string input_filename(argv[1] ? argv[1] : "models/Cube/Cube.gltf");
 
   std::string ext = GetFilePathExtension(input_filename);
 
@@ -980,15 +973,9 @@ int main(int argc, char **argv) {
 
   GLuint vertId = 0, fragId = 0, progId = 0;
 
-#ifdef _WIN32
-#ifdef _DEBUG
   const char *shader_frag_filename = "shader.frag";
   const char *shader_vert_filename = "shader.vert";
-#endif
-#else
-  const char *shader_frag_filename = "shader.frag";
-  const char *shader_vert_filename = "shader.vert";
-#endif
+
 
   if (false == LoadShader(GL_VERTEX_SHADER, vertId, shader_vert_filename)) {
     return -1;
