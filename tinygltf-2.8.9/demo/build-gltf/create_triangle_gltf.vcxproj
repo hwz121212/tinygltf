@@ -60,7 +60,7 @@
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.10.4;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.11.2\include;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS</PreprocessorDefinitions>
@@ -94,7 +94,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG</PreprocessorDefinitions>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.10.4;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.11.2\include;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG</PreprocessorDefinitions>

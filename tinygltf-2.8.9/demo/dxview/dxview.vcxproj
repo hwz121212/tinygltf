@@ -91,7 +91,7 @@
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>NOMINMAX;WIN32;_WINDOWS;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>src;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.10.4;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16;$(SolutionDir)thirdparty\spdlog-1.11.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.11.2\include;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16;$(SolutionDir)thirdparty\spdlog-1.11.0\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <ResourceCompile>
@@ -126,7 +126,7 @@
       <PreprocessorDefinitions>NOMINMAX;WIN32;_WINDOWS;NDEBUG</PreprocessorDefinitions>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <AdditionalIncludeDirectories>src;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.10.4;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16;$(SolutionDir)thirdparty\spdlog-1.11.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;$(SolutionDir)thirdparty\glfw-3.3.7\include;$(SolutionDir)thirdparty\tinygltf-2.8.9;$(SolutionDir)thirdparty\json-3.11.2\include;$(SolutionDir)thirdparty\stb_image-v2.28;$(SolutionDir)thirdparty\stb_image_write-v1.16;$(SolutionDir)thirdparty\spdlog-1.11.0\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <ResourceCompile>

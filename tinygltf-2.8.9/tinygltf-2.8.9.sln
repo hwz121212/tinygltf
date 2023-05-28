@@ -49,6 +49,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libimgui", "thirdparty\imgu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "demo\tests\tests.vcxproj", "{75E101BB-408A-48D4-995E-1B6747AC31E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinygltf-validate", "demo\validator\tinygltf-validate.vcxproj", "{4C1B2D93-8E67-4F20-8456-8E36B03C6961}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjson_schema_validator", "thirdparty\json-schema-validator-2.2.0\libjson_schema_validator.vcxproj", "{B5CAA98D-D6B8-30B4-9C44-ABC7E142CF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -119,6 +123,14 @@ Global
 		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Debug|x64.Build.0 = Debug|x64
 		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Release|x64.ActiveCfg = Release|x64
 		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Release|x64.Build.0 = Release|x64
+		{4C1B2D93-8E67-4F20-8456-8E36B03C6961}.Debug|x64.ActiveCfg = Debug|x64
+		{4C1B2D93-8E67-4F20-8456-8E36B03C6961}.Debug|x64.Build.0 = Debug|x64
+		{4C1B2D93-8E67-4F20-8456-8E36B03C6961}.Release|x64.ActiveCfg = Release|x64
+		{4C1B2D93-8E67-4F20-8456-8E36B03C6961}.Release|x64.Build.0 = Release|x64
+		{B5CAA98D-D6B8-30B4-9C44-ABC7E142CF14}.Debug|x64.ActiveCfg = Debug|x64
+		{B5CAA98D-D6B8-30B4-9C44-ABC7E142CF14}.Debug|x64.Build.0 = Debug|x64
+		{B5CAA98D-D6B8-30B4-9C44-ABC7E142CF14}.Release|x64.ActiveCfg = Release|x64
+		{B5CAA98D-D6B8-30B4-9C44-ABC7E142CF14}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +153,8 @@ Global
 		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {9F285E11-8863-4F37-A78D-9DCA0277756A}
 		{D144BF99-B5E4-4E4E-B7CC-BABA4B2C6D05} = {9F285E11-8863-4F37-A78D-9DCA0277756A}
 		{75E101BB-408A-48D4-995E-1B6747AC31E8} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
+		{4C1B2D93-8E67-4F20-8456-8E36B03C6961} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
+		{B5CAA98D-D6B8-30B4-9C44-ABC7E142CF14} = {9F285E11-8863-4F37-A78D-9DCA0277756A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
