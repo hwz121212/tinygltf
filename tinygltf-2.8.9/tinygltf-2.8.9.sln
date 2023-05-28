@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libOpenGLWindow", "thirdpar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libimgui", "thirdparty\imgui-v1.60\libimgui.vcxproj", "{D144BF99-B5E4-4E4E-B7CC-BABA4B2C6D05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "demo\tests\tests.vcxproj", "{75E101BB-408A-48D4-995E-1B6747AC31E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -113,6 +115,10 @@ Global
 		{D144BF99-B5E4-4E4E-B7CC-BABA4B2C6D05}.Debug|x64.Build.0 = Debug|x64
 		{D144BF99-B5E4-4E4E-B7CC-BABA4B2C6D05}.Release|x64.ActiveCfg = Release|x64
 		{D144BF99-B5E4-4E4E-B7CC-BABA4B2C6D05}.Release|x64.Build.0 = Release|x64
+		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Debug|x64.ActiveCfg = Debug|x64
+		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Debug|x64.Build.0 = Debug|x64
+		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Release|x64.ActiveCfg = Release|x64
+		{75E101BB-408A-48D4-995E-1B6747AC31E8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +140,7 @@ Global
 		{62D144E5-1836-4764-BFC7-BC7AF4B864AC} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
 		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {9F285E11-8863-4F37-A78D-9DCA0277756A}
 		{D144BF99-B5E4-4E4E-B7CC-BABA4B2C6D05} = {9F285E11-8863-4F37-A78D-9DCA0277756A}
+		{75E101BB-408A-48D4-995E-1B6747AC31E8} = {10EFE0B3-E62C-4767-8282-43E6BEC7EC32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
